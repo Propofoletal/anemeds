@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Acetazolamide",
+    "doses": "500mg IV",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Adrenaline",
+    "doses": "Asystole: 1 mg IV\nAnaphylaxis: 50 mcg bolus IV (or 500 mcg IM)\nInfusion: 0.01-0.1mcg/kg/hr\nPaeds Anaphylaxis IV: 1mcg/kg MAX 50mcg\n<6y: 150mcg IM\n6-12y: 300mcg IM\n>12y: 500mcg IM",
+    "effects": "Asystole, Anaphylaxis, Infusion, Paeds Anaphylaxis",
+    "notes": ""
+  },
+  {
+    "name": "Adenosine",
+    "doses": "SVT: IV bolus 3mg, followed by 6mg and then 12mg\nNB Contraindicated in Asthma",
+    "effects": "SVT",
+    "notes": ""
+  },
+  {
+    "name": "Aminophylline",
+    "doses": "Asthma: IV loading dose 5mg/kg (max), Infusion 0.5mg/kg/hr\nCaution if on any other aminophylline",
+    "effects": "Asthma",
+    "notes": ""
+  },
+  {
+    "name": "Amiodarone",
+    "doses": "IV 5mg/kg arrhythmia, 300mg IV loading, 900mg IV infusion",
+    "effects": "arrhythmia",
+    "notes": ""
+  },
+  {
+    "name": "Alfentanil",
+    "doses": "IV 10-30mcg/kg, Infusion 20-60mcg/kg/h",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Atracurium",
+    "doses": "Intubation dose 0.5 mg/kg, Infusion dose 0.3-0.6 mg/kg/min",
+    "effects": "Intubation",
+    "notes": ""
+  },
+  {
+    "name": "Atropine",
+    "doses": "IV or IM 15-20 mcg/kg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Carbetocin",
+    "doses": "IV 100 mcg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Carboprost",
+    "doses": "IM 250 mcg\nNB Contraindicated in Asthma",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Chlorphenamine",
+    "doses": "IV 10mg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Cis-Atracurium",
+    "doses": "Intubation dose 0.15mg/kg, Infusion dose 3mcg/kg/min",
+    "effects": "Intubation",
+    "notes": ""
+  },
+  {
+    "name": "Clonidine",
+    "doses": "Co-analgesia: 1 mcg/kg\nPremed in children (6m-18y): Oral clonidine 4mcg/kg",
+    "effects": "Co-analgesia, Premed",
+    "notes": ""
+  },
+  {
+    "name": "Cyclizine",
+    "doses": "50 mg IV slow",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Dantrolene",
+    "doses": "IV 2.5 mg/kg bolus, followed by 1-2mg/kg, MAX DOSE 10mg/kg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Dexmedetomidine",
+    "doses": "Paeds procedural sedation: bolus 0.5-2 mcg/kg, followed by infusion 0.2-1 mcg/kg/h",
+    "effects": "Paeds procedural sedation",
+    "notes": ""
+  },
+  {
+    "name": "Diamorphine",
+    "doses": "IV 0.05mg/kg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Diazepam",
+    "doses": "IV 10-20mg increments",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Ephedrine",
+    "doses": "IV 3-6mg boluses",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Ergometrine",
+    "doses": "Slow IV 250 mcg or IM 500 mcg\nContraindicated in HTN",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Etomidate",
+    "doses": "IV 0.3 mg/kg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Fentanyl",
+    "doses": "IV induction: 1-2mcg/kg, IV infusion 1-10mcg/kg/h",
+    "effects": "Induction",
+    "notes": ""
+  },
+  {
+    "name": "Flumazenil",
+    "doses": "IV 100mcg increments max dose 1mg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Glycopyrolate",
+    "doses": "IV/IM 0.2-0.4 mg IV in adults, IV 4-10 μg/kg in paeds",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "GTN",
+    "doses": "Infusion GTN 10-200mcg/min\nExample: 1mg/ml concentration - Infusion 3ml/hr titrating to effect",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Intralipid 20%",
+    "doses": "IV bolus: 1.5 ml/Kg, followed by 15ml/Kg/hr\nif persistent arrest: 2 further boluses 1.5 ml/kg (max) and infusion rate increased to 30ml/kg\nmax dose 12ml/kg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Isoprenaline",
+    "doses": "IV 1-4 mcg/min\nBrugada: 0.003mcg/kg/min aiming to reduce HR by 20%",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Ketamine",
+    "doses": "Induction: IV 1-2mg/kg; IM 5-10mg/kg\nPremedication: Oral 5-10mg/kg\nPaeds sedation: bolus 100-300mcg/kg followed by 0-5 mcg/kg/h\nAnalgesic dose 0.5 mg/kg",
+    "effects": "Induction, Premedication, Paeds sedation, Analgesic",
+    "notes": ""
+  },
+  {
+    "name": "Labetolol",
+    "doses": "IV 5-20mg boluses to max dose of 200mg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Levetiracetam",
+    "doses": "neurosurgery seizure prophylaxis: IV 1000mg, Max dose 3000mg daily",
+    "effects": "neurosurgery seizure prophylaxis",
+    "notes": ""
+  },
+  {
+    "name": "Lignocaine",
+    "doses": "LA: 3mg/kg without Adrenaline, 7 mg/kg with Adrenaline\nAirway topicalisation: max dose 9mg/kg\nCo-analgesia: 1 mg/kg bolus slow, followed by infusion 0.5-2 mg/kg/h",
+    "effects": "LA, Airway topicalisation, Co-analgesia",
+    "notes": ""
+  },
+  {
+    "name": "Lorazepam",
+    "doses": "Adult dose 1-4mg PO/PR\nPaeds dose 0.1mg/kg Max dose 4mg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Magnesium",
+    "doses": "Asthma: 2g IV over 15 min infusion\nPolymorphic VT: 2g IV\nEclampsia: Loading dose 4g followed by infusion 1g/hour for 24 hours, Repeat bolus 2-4g if recurrent seizures",
+    "effects": "Asthma, Polymorphic VT, Eclampsia",
+    "notes": ""
+  },
+  {
+    "name": "Mannitol",
+    "doses": "0.5g/kg IV",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Metaraminol",
+    "doses": "IV 0.5-1mg boluses",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Metoclopramide",
+    "doses": "10 mg IV slow",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Midazolam",
+    "doses": "Premedication: IV 70 mcg/kg\nSedation: IV 100 mcg/kg titrated to response\nOral premed (1m-18y): 0.2-0.5mg/kg\nSeizures in children: 500mcg/kg",
+    "effects": "Premedication, Sedation, Oral premed, Seizures",
+    "notes": ""
+  },
+  {
+    "name": "Misoprostol",
+    "doses": "400 mcg - 1 mg PO/PR",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Mivacurium",
+    "doses": "Intubation dose: 0.2 mg/kg\nInfusion dose: 8-10 mcg/kg/min",
+    "effects": "Intubation",
+    "notes": ""
+  },
+  {
+    "name": "Morphine",
+    "doses": "IV 0.1mg/kg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Naloxone",
+    "doses": "IV 100-400 mcg boluses up to 4mg MAX",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Noradrenaline",
+    "doses": "",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Neostigmine/Glycopyrrolate",
+    "doses": "Premixed Neostigmine 0.5mg with Glycopyrrolate 0.5mg\nIV 0.02ml/kg - equivalent to Neostigmine 50 mcg/kg with Glycopyrrolate 10 mcg/kg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Phenylnephrine",
+    "doses": "IV 50-100mcg boluses",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Pancuronium",
+    "doses": "Intubation dose 0.05-0.1 mg/kg\nNeonates 0.03-0.04 mg/kg",
+    "effects": "Intubation",
+    "notes": ""
+  },
+  {
+    "name": "Propofol",
+    "doses": "Induction IV 1-2mg/kg; Sedation 4-12 mg/kg/hour",
+    "effects": "Induction, Sedation",
+    "notes": ""
+  },
+  {
+    "name": "Rocuronium",
+    "doses": "Intubation dose 0.6 mg/kg\nRSI 1 mg/kg",
+    "effects": "Intubation, RSI",
+    "notes": ""
+  },
+  {
+    "name": "Salbutamol",
+    "doses": "IV loading dose: 250mcg diluted to 50mcg/ml\nIV Infusion (in glucose or saline) max 0.5 mcg/kg/min\nNebulised 5mg repeat every 20 mins\nInhaled 10 puffs (each puff 100mcg)",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Suxamethonium",
+    "doses": "Intubation dose IV 1-1.5 mg/kg\nIM dose 2.5 mg/kg",
+    "effects": "Intubation",
+    "notes": ""
+  },
+  {
+    "name": "Syntocinon",
+    "doses": "IV 5IU- SLOW (followed by infusion 10IU per hour)",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Thiopentone",
+    "doses": "IV 3-7mg/kg",
+    "effects": "",
+    "notes": ""
+  },
+  {
+    "name": "Vecuronium",
+    "doses": "Intubation dose IV 0.1 mg/kg\nInfusion dose 0.8-1.5 mg/kg/min",
+    "effects": "Intubation",
+    "notes": ""
+  }
+]
