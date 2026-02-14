@@ -53,3 +53,30 @@ Drug data is stored in `public/drugs.json`. Notes are saved locally in the brows
 - Vue 3
 - Vite
 - JavaScript
+- ISO 26825:2020 color coding standard
+
+## Deployment
+
+### Deploy to Render.com
+
+This app is ready to deploy to Render.com:
+
+1. **Sign in to Render**: Go to [render.com](https://render.com) and sign in with GitHub
+2. **Create New Static Site**: Click "New +" → "Static Site"
+3. **Connect Repository**: Select your GitHub repository
+4. **Configure Settings**:
+   - **Name**: anemeds (or your preferred name)
+   - **Branch**: main
+   - **Build Command**: `npm install && npm run build`
+   - **Publish Directory**: `dist`
+5. **Deploy**: Click "Create Static Site"
+
+Render will automatically:
+- Build and deploy your app
+- Provide a public URL (e.g., `https://anemeds.onrender.com`)
+- Enable HTTPS automatically
+- Redeploy when you push to GitHub
+
+### Alternative: Manual Deployment
+
+If you prefer manual deployment, the `render.yaml` file is included for easy configuration.
