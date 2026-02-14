@@ -3,18 +3,25 @@
     <h1>Anaesthetic Drugs</h1>
 
     <div v-for="category in categoryOrder" :key="category.id" class="category-section">
-      <div class="category-header" :style="getCategoryHeaderStyle(category.id)">
+      <div
+        class="category-header"
+        :style="getCategoryHeaderStyle(category.id)"
+        @click="toggleCategory(category.id)"
+      >
         <h2>{{ category.name }}</h2>
+        <span class="chevron" :class="{ expanded: expandedCategories[category.id] }">▼</span>
       </div>
 
-      <div v-for="drug in getDrugsByCategory(category.id)" :key="drug.name" class="drug" :style="getDrugStyle(category.id)">
-        <h3 class="drug-name" :style="getDrugNameStyle(category.id)">{{ drug.name }}</h3>
-        <div class="drug-info">
-          <p><strong>Doses:</strong> <span v-html="formatDoses(drug.doses)"></span></p>
-          <p v-if="drug.effects"><strong>Effects:</strong> {{ drug.effects }}</p>
-          <div class="notes-section">
-            <strong>Notes:</strong>
-            <textarea v-model="drug.notes" placeholder="Add your notes here..." @input="saveNotes"></textarea>
+      <div v-show="expandedCategories[category.id]" class="category-drugs">
+        <div v-for="drug in getDrugsByCategory(category.id)" :key="drug.name" class="drug" :style="getDrugStyle(category.id)">
+          <h3 class="drug-name" :style="getDrugNameStyle(category.id)">{{ drug.name }}</h3>
+          <div class="drug-info">
+            <p><strong>Doses:</strong> <span v-html="formatDoses(drug.doses)"></span></p>
+            <p v-if="drug.effects"><strong>Effects:</strong> {{ drug.effects }}</p>
+            <div class="notes-section">
+              <strong>Notes:</strong>
+              <textarea v-model="drug.notes" placeholder="Add your notes here..." @input="saveNotes"></textarea>
+            </div>
           </div>
         </div>
       </div>
@@ -29,6 +36,7 @@ export default {
   name: 'App',
   setup() {
     const drugs = ref([])
+    const expandedCategories = ref({})
 
     // ISO 26825:2020 Category definitions with RGB colors
     const categoryConfig = {
@@ -157,6 +165,24 @@ export default {
       return drugs.value.filter(drug => drug.category === categoryId)
     }
 
+    const toggleCategory = (categoryId) => {
+      expandedCategories.value[categoryId] = !expandedCategories.value[categoryId]
+      // Save expanded state to localStorage
+      localStorage.setItem('expandedCategories', JSON.stringify(expandedCategories.value))
+    }
+
+    const loadExpandedState = () => {
+      const saved = localStorage.getItem('expandedCategories')
+      if (saved) {
+        expandedCategories.value = JSON.parse(saved)
+      } else {
+        // Default: expand all categories on first visit
+        categoryOrder.value.forEach(cat => {
+          expandedCategories.value[cat.id] = true
+        })
+      }
+    }
+
     const getCategoryHeaderStyle = (categoryId) => {
       const config = categoryConfig[categoryId]
       return {
@@ -221,15 +247,18 @@ export default {
           const saved = savedNotes.find(s => s.name === drug.name)
           if (saved) drug.notes = saved.notes
         })
+        loadExpandedState()
       })
     })
 
     return {
       drugs,
       categoryOrder,
+      expandedCategories,
       formatDoses,
       saveNotes,
       getDrugsByCategory,
+      toggleCategory,
       getCategoryHeaderStyle,
       getDrugStyle,
       getDrugNameStyle
@@ -270,14 +299,44 @@ h1 {
 
 .category-header {
   padding: 15px 20px;
-  border-radius: 8px 8px 0 0;
+  border-radius: 8px;
   margin-bottom: 0;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: opacity 0.2s;
+}
+
+.category-header:hover {
+  opacity: 0.9;
+}
+
+.category-header:active {
+  opacity: 0.8;
 }
 
 .category-header h2 {
   margin: 0;
   font-size: 22px;
   font-weight: 600;
+  flex: 1;
+}
+
+.chevron {
+  font-size: 16px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.chevron.expanded {
+  transform: rotate(-180deg);
+}
+
+.category-drugs {
+  margin-top: 0;
 }
 
 .drug {
@@ -288,11 +347,12 @@ h1 {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.drug:first-of-type {
-  border-radius: 0 0 0 4px;
+.category-drugs .drug:first-of-type {
+  border-radius: 4px 4px 0 0;
+  margin-top: 0;
 }
 
-.drug:last-of-type {
+.category-drugs .drug:last-of-type {
   border-radius: 0 0 4px 4px;
   margin-bottom: 0;
 }
@@ -363,11 +423,15 @@ textarea:focus {
 
   .category-header {
     padding: 12px 15px;
-    border-radius: 6px 6px 0 0;
+    border-radius: 6px;
   }
 
   .category-header h2 {
     font-size: 18px;
+  }
+
+  .chevron {
+    font-size: 14px;
   }
 
   .drug {
@@ -422,6 +486,10 @@ textarea:focus {
 
   .category-header h2 {
     font-size: 16px;
+  }
+
+  .chevron {
+    font-size: 12px;
   }
 
   .drug {
