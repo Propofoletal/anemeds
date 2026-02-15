@@ -1,7 +1,7 @@
 <template>
   <div class="home-page">
     <h1>Anaesthesia Reference</h1>
-    <p class="subtitle">Quick reference guides for anaesthetic practice</p>
+    <p class="subtitle">Quick reference guides for anaesthetic practice by BBL - for personal use only</p>
 
     <div class="section-grid">
       <router-link to="/drugs" class="section-card drugs-card">
