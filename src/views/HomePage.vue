@@ -7,7 +7,7 @@
       <router-link to="/drugs" class="section-card drugs-card">
         <div class="card-icon">💉</div>
         <h2>Anaesthetic Drugs</h2>
-        <p>Drug reference with doses and notes</p>
+        <p>Drug reference with doses</p>
       </router-link>
 
       <router-link to="/obs" class="section-card obs-card">
@@ -17,9 +17,9 @@
       </router-link>
 
       <router-link to="/transplant" class="section-card transplant-card">
-        <div class="card-icon">🫀</div>
-        <h2>Transplant Anaesthesia</h2>
-        <p>Transplant anaesthesia</p>
+        <div class="card-icon">🏥</div>
+        <h2>HPB Anaesthesia</h2>
+        <p>HPB anaesthesia</p>
       </router-link>
     </div>
   </div>
