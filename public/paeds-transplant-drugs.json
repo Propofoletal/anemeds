@@ -1,0 +1,416 @@
+[
+  {
+    "category": "induction",
+    "name": "Propofol (>1 month)",
+    "doses": "3-5mg/kg (neonate 2mg/kg)",
+    "notes": ""
+  },
+  {
+    "category": "induction",
+    "name": "Thiopentone",
+    "doses": "4-6mg/kg (neonate 2mg/kg)",
+    "notes": ""
+  },
+  {
+    "category": "induction",
+    "name": "Ketamine",
+    "doses": "1-2mg/kg (IV), 4-10mg/kg (IM)",
+    "notes": ""
+  },
+  {
+    "category": "induction",
+    "name": "Midazolam (>1 month)",
+    "doses": "150mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "induction",
+    "name": "Etomidate (>2 years)",
+    "doses": "300mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "muscle-relaxants",
+    "name": "Atracurium",
+    "doses": "500mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "muscle-relaxants",
+    "name": "Rocuronium",
+    "doses": "600-1000mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "muscle-relaxants",
+    "name": "Suxamethonium",
+    "doses": "1-2mg/kg (<1 month 2mg/kg)",
+    "notes": ""
+  },
+  {
+    "category": "muscle-relaxants",
+    "name": "Vecuronium",
+    "doses": "100mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "muscle-relaxants",
+    "name": "Pancuronium",
+    "doses": "100mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "blood-products",
+    "name": "Packed Red Cells",
+    "doses": "3-4ml/kg = 1g/dL increase in Hb",
+    "notes": ""
+  },
+  {
+    "category": "blood-products",
+    "name": "Fresh Frozen Plasma",
+    "doses": "10-15ml/kg",
+    "notes": ""
+  },
+  {
+    "category": "blood-products",
+    "name": "Cryoprecipitate",
+    "doses": "10ml/kg",
+    "notes": ""
+  },
+  {
+    "category": "blood-products",
+    "name": "Platelets",
+    "doses": "10-20ml/kg",
+    "notes": ""
+  },
+  {
+    "category": "blood-products",
+    "name": "Maintenance Fluids",
+    "doses": "4ml/kg first 10kg, 2ml/kg next 10kg, 1ml/kg for every kg afterwards",
+    "notes": ""
+  },
+  {
+    "category": "blood-products",
+    "name": "Tranexamic Acid",
+    "doses": "10mg/kg TDS",
+    "notes": ""
+  },
+  {
+    "category": "blood-products",
+    "name": "Octreotide",
+    "doses": "1mcg/kg (max 50mcg/hr)",
+    "notes": ""
+  },
+  {
+    "category": "blood-products",
+    "name": "DDAVP",
+    "doses": "300 nanograms/kg",
+    "notes": ""
+  },
+  {
+    "category": "emergency",
+    "name": "Adrenaline",
+    "doses": "10mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "emergency",
+    "name": "Amiodarone",
+    "doses": "5mg/kg",
+    "notes": ""
+  },
+  {
+    "category": "emergency",
+    "name": "Atropine",
+    "doses": "20mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "emergency",
+    "name": "Calcium Chloride (10%)",
+    "doses": "0.2ml/kg",
+    "notes": ""
+  },
+  {
+    "category": "emergency",
+    "name": "Dextrose 10%",
+    "doses": "5-10ml/kg (Neonate 2ml/kg)",
+    "notes": ""
+  },
+  {
+    "category": "emergency",
+    "name": "Intralipid 20%",
+    "doses": "1.5ml/kg bolus then 0.25ml/kg/min",
+    "notes": ""
+  },
+  {
+    "category": "emergency",
+    "name": "Isoprenaline",
+    "doses": "5mcg/kg in asystole",
+    "notes": ""
+  },
+  {
+    "category": "emergency",
+    "name": "Phenylepherine",
+    "doses": "1-2mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "emergency",
+    "name": "Sodium Bicarbonate 8.4%",
+    "doses": "1ml/kg",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Piptazobactam (Tazocin)",
+    "doses": "90mg/kg (8 hourly)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Amikacin",
+    "doses": "15mg/kg (once a day)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Gentamicin",
+    "doses": "7mg/kg (see levels)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Teicoplanin",
+    "doses": "10mg/kg (max 400mg)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Co-Amoxiclav",
+    "doses": "30mg/kg (8 hourly)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Vancomycin",
+    "doses": "15mg/kg (8 hourly)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Metronidazole",
+    "doses": "7.5mg/kg (8 hourly)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Ciprofloxacin",
+    "doses": "10-15mg/kg (max 400mg)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Cefuroxime",
+    "doses": "10-30mg/kg (8 hourly)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Clarythromycin",
+    "doses": "7.5mg/kg (12 hourly)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Amoxicillin",
+    "doses": "30-60mg/kg (8 hourly)",
+    "notes": ""
+  },
+  {
+    "category": "antibiotics",
+    "name": "Benzylpenicillin",
+    "doses": "25-50mg/kg (8 hourly)",
+    "notes": "See BNF for neonate doses"
+  },
+  {
+    "category": "antiemetics",
+    "name": "Ondansetron",
+    "doses": "100-150mcg/kg TDS",
+    "notes": ""
+  },
+  {
+    "category": "antiemetics",
+    "name": "Dexamethasone",
+    "doses": "150mg/kg STAT",
+    "notes": ""
+  },
+  {
+    "category": "antiemetics",
+    "name": "Cyclizine",
+    "doses": "1mg/kg TDS",
+    "notes": ""
+  },
+  {
+    "category": "antiemetics",
+    "name": "Droperidol",
+    "doses": "20-50mcg/kg ODS",
+    "notes": ""
+  },
+  {
+    "category": "other-drugs",
+    "name": "Magnesium",
+    "doses": "25-50mg/kg (max 2g)",
+    "notes": ""
+  },
+  {
+    "category": "other-drugs",
+    "name": "Hydrocortisone",
+    "doses": "4mg/kg (2mg/kg in neonates)",
+    "notes": ""
+  },
+  {
+    "category": "other-drugs",
+    "name": "Furosemide",
+    "doses": "500-1000mcg/kg up to QDS",
+    "notes": ""
+  },
+  {
+    "category": "other-drugs",
+    "name": "Glycopyrrolate",
+    "doses": "4-8mcg/kg (max 200mcg)",
+    "notes": ""
+  },
+  {
+    "category": "other-drugs",
+    "name": "Labetalol",
+    "doses": "250-500mcg/kg (max 20mg)",
+    "notes": ""
+  },
+  {
+    "category": "other-drugs",
+    "name": "Naloxone",
+    "doses": "4-10mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "other-drugs",
+    "name": "Neostigmine/Glyco",
+    "doses": "50mcg/kg / 10mcg/kg",
+    "notes": ""
+  },
+  {
+    "category": "other-drugs",
+    "name": "Dantrolene",
+    "doses": "2-3mg/kg then 1mg/kg",
+    "notes": ""
+  },
+  {
+    "category": "analgesia",
+    "name": "Fentanyl",
+    "doses": "1mcg/kg/dose",
+    "notes": ""
+  },
+  {
+    "category": "analgesia",
+    "name": "Alfentanil",
+    "doses": "10mcg/kg/dose",
+    "notes": ""
+  },
+  {
+    "category": "analgesia",
+    "name": "Morphine (<1 year old)",
+    "doses": "50-100mcg/kg/dose",
+    "notes": ""
+  },
+  {
+    "category": "analgesia",
+    "name": "Morphine (>1 year old)",
+    "doses": "100-200mcg/kg/dose",
+    "notes": ""
+  },
+  {
+    "category": "analgesia",
+    "name": "Remifentanil",
+    "doses": "0.05-0.2 mcg/kg/min",
+    "notes": ""
+  },
+  {
+    "category": "analgesia",
+    "name": "Paracetamol (<10kg)",
+    "doses": "7.5mg/kg",
+    "notes": ""
+  },
+  {
+    "category": "analgesia",
+    "name": "Paracetamol (>10kg)",
+    "doses": "15mg/kg",
+    "notes": ""
+  },
+  {
+    "category": "analgesia",
+    "name": "Diclofenac",
+    "doses": "1mg/kg",
+    "notes": ""
+  },
+  {
+    "category": "infusions",
+    "name": "Noradrenaline Dextrose",
+    "doses": "weight (kg)/3mg in 50mls of 5%",
+    "notes": ""
+  },
+  {
+    "category": "infusions",
+    "name": "Fentanyl",
+    "doses": "Neat (50mcg/ml) Rate = weight (kg)/10",
+    "notes": ""
+  },
+  {
+    "category": "infusions",
+    "name": "Atracurium",
+    "doses": "Neat (10mg/ml) Rate = weight (kg)/10",
+    "notes": ""
+  },
+  {
+    "category": "infusions",
+    "name": "Calcium Chloride 10%",
+    "doses": "Rate = 0-5ml/hr",
+    "notes": ""
+  },
+  {
+    "category": "infusions",
+    "name": "10% Dextrose",
+    "doses": "Rate = weight (kg)/2",
+    "notes": ""
+  },
+  {
+    "category": "infusions",
+    "name": "Thiopentone (for raised ICP)",
+    "doses": "1g in 40mls water Rate = 3-5mg/kg/hr",
+    "notes": ""
+  },
+  {
+    "category": "premedications",
+    "name": "Midazolam PO",
+    "doses": "500mcg/kg (max 20mg)",
+    "notes": ""
+  },
+  {
+    "category": "premedications",
+    "name": "Ketamine IM",
+    "doses": "5-10mg/kg",
+    "notes": ""
+  },
+  {
+    "category": "premedications",
+    "name": "Chloral hydrate",
+    "doses": "30-100mg/kg (max 2g)",
+    "notes": ""
+  },
+  {
+    "category": "premedications",
+    "name": "Dexmedetomidine (nasal)",
+    "doses": "2mcg/kg (max 200mcg)",
+    "notes": ""
+  }
+]
