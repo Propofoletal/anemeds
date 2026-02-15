@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Carbetocin",
+    "doses": "IV 100 mcg",
+    "effects": "",
+    "notes": "",
+    "category": "obs-drugs"
+  },
+  {
+    "name": "Carboprost",
+    "doses": "IM 250 mcg\nNB Contraindicated in Asthma",
+    "effects": "",
+    "notes": "",
+    "category": "obs-drugs"
+  },
+  {
+    "name": "Ergometrine",
+    "doses": "Slow IV 250 mcg or IM 500 mcg\nContraindicated in HTN",
+    "effects": "",
+    "notes": "",
+    "category": "obs-drugs"
+  },
+  {
+    "name": "Syntocinon",
+    "doses": "IV 5IU- SLOW (followed by infusion 10IU per hour)",
+    "effects": "",
+    "notes": "",
+    "category": "obs-drugs"
+  },
+  {
+    "name": "Misoprostol",
+    "doses": "400 mcg - 1 mg PO/PR",
+    "effects": "",
+    "notes": "",
+    "category": "miscellaneous"
+  }
+]

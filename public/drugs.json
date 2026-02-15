@@ -11,7 +11,7 @@
     "doses": "Asystole: 1 mg IV\nAnaphylaxis: 50 mcg bolus IV (or 500 mcg IM)\nInfusion: 0.01-0.1mcg/kg/hr\nPaeds Anaphylaxis IV: 1mcg/kg MAX 50mcg\n<6y: 150mcg IM\n6-12y: 300mcg IM\n>12y: 500mcg IM",
     "effects": "Asystole, Anaphylaxis, Infusion, Paeds Anaphylaxis",
     "notes": "",
-    "category": "vasopressor-adrenaline"
+    "category": "vasopressor"
   },
   {
     "name": "Adenosine",
@@ -54,20 +54,6 @@
     "effects": "",
     "notes": "",
     "category": "anticholinergic"
-  },
-  {
-    "name": "Carbetocin",
-    "doses": "IV 100 mcg",
-    "effects": "",
-    "notes": "",
-    "category": "miscellaneous"
-  },
-  {
-    "name": "Carboprost",
-    "doses": "IM 250 mcg\nNB Contraindicated in Asthma",
-    "effects": "",
-    "notes": "",
-    "category": "miscellaneous"
   },
   {
     "name": "Chlorphenamine",
@@ -131,13 +117,6 @@
     "effects": "",
     "notes": "",
     "category": "vasopressor"
-  },
-  {
-    "name": "Ergometrine",
-    "doses": "Slow IV 250 mcg or IM 500 mcg\nContraindicated in HTN",
-    "effects": "",
-    "notes": "",
-    "category": "miscellaneous"
   },
   {
     "name": "Etomidate",
@@ -258,13 +237,7 @@
     "notes": "",
     "category": "benzodiazepine"
   },
-  {
-    "name": "Misoprostol",
-    "doses": "400 mcg - 1 mg PO/PR",
-    "effects": "",
-    "notes": "",
-    "category": "miscellaneous"
-  },
+  
   {
     "name": "Mivacurium",
     "doses": "Intubation dose: 0.2 mg/kg\nInfusion dose: 8-10 mcg/kg/min",
@@ -341,13 +314,6 @@
     "effects": "Intubation",
     "notes": "",
     "category": "suxamethonium"
-  },
-  {
-    "name": "Syntocinon",
-    "doses": "IV 5IU- SLOW (followed by infusion 10IU per hour)",
-    "effects": "",
-    "notes": "",
-    "category": "miscellaneous"
   },
   {
     "name": "Thiopentone",
